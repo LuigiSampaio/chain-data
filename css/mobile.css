@@ -21,6 +21,7 @@ header {
   .container-text {
     min-width: 60%;
   }
+
 }
 
 @media (max-width: 960px) {
@@ -72,6 +73,14 @@ header {
   .text-about ul li {
     font-size: 2.7rem;
   }
+
+  .slide-content {
+    margin: 0 10px;
+  }
+
+  .swipper-navBtn {
+    display: none !important;
+  }
 }
 
 @media (max-width: 500px) {
@@ -79,7 +88,6 @@ header {
   section {
     height: 95vh;
   }
-
 
   .nav-menu {
     position: fixed;

@@ -10,6 +10,9 @@
   <link rel="stylesheet" href="./css/styles.css">
   <link rel="stylesheet" href="./css/mobile.css">
 
+  <!-- Swipper Css-->
+  <link rel="stylesheet" href="css/swiper-bundle.min.css">
+
   <!-- font awesome cdn link -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
 
@@ -101,48 +104,58 @@
       Vivamus lacinia odio vitae vestibulum vestibulum.</p>
   </div>
 
-  <div class="cards-section">
-    <div class="container-cards">
-      <div class="card-box">
-        <img src="./utils/icons/icon-1.svg" alt="icone">
-  
-        <div class="content">
-          <p class="title">solution 1</p>
-          <p class="description">
-            Lorem ipsum dolor sit amet,
-            consectetur adipiscing el
-          </p>
+  <div class="slide-container swiper">
+    <div class="slide-content">
+      <div class="card-wrapper swiper-wrapper">
+
+        <div class="container-cards swiper-slide">
+          <div class="card-box">
+            <img src="./utils/icons/icon-1.svg" alt="icone">
+      
+            <div class="content">
+              <p class="title">solution 3</p>
+              <p class="description">
+                Lorem ipsum dolor sit amet,
+                consectetur adipiscing el
+              </p>
+            </div>
+          </div>
         </div>
+
+        <div class="container-cards swiper-slide">
+          <div class="card-box center">
+            <img src="./utils/icons/icon-2.svg" alt="icone">
+      
+            <div class="content">
+              <p class="title">solution 3</p>
+              <p class="description">
+                Lorem ipsum dolor sit amet,
+                consectetur adipiscing el
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="container-cards swiper-slide">
+          <div class="card-box">
+            <img src="./utils/icons/icon-3.svg" alt="icone">
+      
+            <div class="content">
+              <p class="title">solution 3</p>
+              <p class="description">
+                Lorem ipsum dolor sit amet,
+                consectetur adipiscing el
+              </p>
+            </div>
+          </div>
+        </div>
+
       </div>
     </div>
-  
-    <div class="container-cards">
-      <div class="card-box center">
-        <img src="./utils/icons/icon-2.svg" alt="icone">
-  
-        <div class="content">
-          <p class="title">solution 2</p>
-          <p class="description">
-            Lorem ipsum dolor sit amet,
-            consectetur adipiscing el
-          </p>
-        </div>
-      </div>
-    </div>
-  
-    <div class="container-cards">
-      <div class="card-box">
-        <img src="./utils/icons/icon-3.svg" alt="icone">
-  
-        <div class="content">
-          <p class="title">solution 3</p>
-          <p class="description">
-            Lorem ipsum dolor sit amet,
-            consectetur adipiscing el
-          </p>
-        </div>
-      </div>
-    </div>
+
+    <div class="swiper-button-next swipper-navBtn"></div>
+    <div class="swiper-button-prev swipper-navBtn"></div>
+    <div class="swiper-pagination"></div>
   </div>
 
 </section> 
@@ -279,4 +292,10 @@
 </footer>
 
 </body>
+
+<!-- Swipper Js -->
+<script src="/js/swiper-bundle.min.js"></script>
+
+<!-- Swipper Javascript -->
+<script src="/js/scripts.js"></script>
 </html>

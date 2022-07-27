@@ -274,10 +274,6 @@ a.logo {
   justify-content: center;
 }
 
-.container-cards {
-  padding: 0 2rem;
-}
-
 .card-box {
   width: 315px;
   height: 370px;
@@ -313,7 +309,6 @@ a.logo {
   font-size: 3.2rem;
   text-transform: uppercase;
   font-weight: 700;
-
   margin-top: -100px;
 }
 
@@ -322,6 +317,50 @@ a.logo {
   padding-top: 1.8rem;
   font-size: 1.8rem;
 }
+
+.slide-container {
+  max-width: 1120px;
+  width: 100%;
+  padding: 40px 0 !important;
+}
+
+.slide-content {
+  margin: 0 40px;
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+.swipper-navBtn {
+  color: var(--card-color) !important;
+  transition: color 0.3s ease;
+}
+
+.swipper-navBtn:hover {
+  color: var(--title-color) !important;
+}
+
+.swipper-navBtn::before,
+.swipper-navBtn::after {
+  font-size: 40px !important;
+}
+
+.swiper-button-next {
+  right: 0 !important;
+}
+
+.swiper-button-prev {
+  left: 0 !important;
+}
+
+.swiper-pagination-bullet {
+  background-color: var(--title-color) !important;;
+  opacity: 1;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: var(--card-color) !important;
+}
+
 
 /* SECTION RESULTS */
 .section-results {
@@ -504,7 +543,7 @@ a.logo {
 /* SECTION FOOTER */
 .section-footer {
   width: 100%;
-  height: 50vh;
+  height: 60vh;
   background-color: var(--title-color);
 
   font-family: 'Montserrat', sans-serif;
