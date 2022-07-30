@@ -146,4 +146,111 @@ header {
   .text-about ul li {
     font-size: 2.8rem;
   }
+
+  .text-solutions span {
+    font-size: 5rem;
+  }
+
+  .card-box {
+    margin: 0 !important;
+    width: 280px;
+    height: 330px;
+  } 
+
+  .text-results span {
+    font-size: 5rem;
+  }
+  
+  .container-number-box {
+    flex-direction: column;
+  }
+
+  .number-box span {
+    font-size: 6rem;
+  }
+
+  .number-box p {
+    padding: 0.8rem 0;
+  }
+
+  .text-contact {
+    width: 80%;
+    text-align: center;
+  }
+
+  .text-contact span {
+    font-size: 5rem;
+  }
+
+  .text-contact p {
+    margin: 5% 9%;
+  }
+  
+  .container-contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .container-main {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 90%;
+  }
+
+  .form-info  {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 5%;
+  }
+
+  .form-info .box {
+    width: 100%;
+  }
+
+  .section-footer .text-title {
+    font-size: 5rem;
+  }
+
+  .section-footer {
+    height: 125vh;
+  }
+
+  .container-footer {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .footer-text {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+  }
+
+  .footer-text p {
+    font-size: 2.5rem;
+  }
+
+  .sizes {
+    width: 100%;
+    width: 100%;
+
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+    margin-top: 5%;
+  }
+
 } 
